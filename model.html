@@ -71,11 +71,11 @@ function initialize()
 
 	function onResize()
 	{
-		artoolkitsource.onresize()	
-		artoolkitsource.copysizeto(renderer.domelement)	
-		if ( artoolkitcontext.arcontroller !== null )
+		arToolkitSource.onResize()	
+		arToolkitSource.copySizeTo(renderer.domElement)	
+		if ( arToolkitContext.arController !== null )
 		{
-			artoolkitsource.copysizeto(artoolkitcontext.arcontroller.canvas)	
+			arToolkitSource.copySizeTo(arToolkitContext.arController.canvas)	
 		}	
 	}
 

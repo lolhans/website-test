@@ -5979,17 +5979,7 @@ ARjs.Source.prototype._initSourceWebcam = function(onReady, onError) {
 					// max: 1080
 				}
 		  	}
-				}
-
-		// CUSTOM CODE START
-		//var backCam2 = devices.filter(d => {
-		//	return d.label && d.label == "camera2 0, facing back";
-		//})
-		//if (backCam2.length) {
-		//	userMediaConstraints.video.deviceId = backCam2[0].deviceId
-		//}
-		// CUSTOM CODE END
-
+                }
 		// get a device which satisfy the constraints
 		navigator.mediaDevices.getUserMedia(userMediaConstraints).then(function success(stream) {
 			// set the .src of the domElement
