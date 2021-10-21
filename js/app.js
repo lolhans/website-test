@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const unityInstance = UnityLoader.instantiate("unityContainer", "Build/v9.json");
+=======
+const unityInstance = UnityLoader.instantiate("unityContainer", "Build/v8.json");
+>>>>>>> parent of e1aea6c (Revert "v8 - with fov changer")
 let isCameraReady = false;
 let isDetectionManagerReady = false;
 let gl = null;
